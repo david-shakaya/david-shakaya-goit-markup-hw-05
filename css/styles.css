@@ -80,12 +80,35 @@ h3 {
 }
 
 .menu-link {
+  position: relative;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-dark-words-color);
 }
 
+.menu-link-portfolio::after {
+  content: "";
+  display: block;
+border-bottom: 4px solid var(--accent-color);
+border-radius: 4px;
+width: 100%;
+margin-top: 28px;
+
+position: absolute;
+}
+
+.menu-link-studio::after {
+  content: "";
+  display: block;
+border-bottom: 4px solid var(--accent-color);
+border-radius: 4px;
+width: 100%;
+margin-top: 28px;
+
+position: absolute;
+}
 .link:hover,
 .link:focus {
   color: var(--accent-color);
