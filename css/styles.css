@@ -646,6 +646,10 @@ position: absolute;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-form-subscribe input {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .footer-subscribe-btn {
   display: flex;
   align-items: center;
