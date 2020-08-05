@@ -623,6 +623,10 @@ position: absolute;
   margin-top: 20px;
 }
 
+.footer-form-subscribe {
+  display: flex;
+}
+
 .footer-subscribe-wrapper-form input {
   width: 358px;
   height: 50px;
@@ -643,8 +647,13 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-subscribe-btn {
+  display: flex;
+  align-items: center;
+
   width: 200px;
   height: 50px;
+  margin-left: 12px;
+  padding-left: 29px;
  
   color: var(--title-light-words-color);
   background-color: #2196F3;
@@ -658,6 +667,15 @@ color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.06em;
 }
 
+.footer-subscribe-btn-svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.footer-subscribe-btn-svg{
+  display: flex;
+}
 /*Стили для страницы портфоли "Portfolio.html"*/
 
 .header-portfolio {
